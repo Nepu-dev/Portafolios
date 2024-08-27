@@ -1,0 +1,49 @@
+body {
+    background-image: url('../imgs/pexels-harold-vasquez-853421-2653362.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+.content{
+    display: flex;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    color: white;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+    margin-inline: 1%;
+}
+
+.abajito{
+    padding: 5%;
+}
+
+a{
+    margin: 2%;
+}
+
+.parrafo{
+    margin-top: 2%;
+}
+
+.botoncito{
+    padding: 1%;
+}
+
+.formulario{
+    padding: 2%;
+    border-radius: 2%;
+}
+@media(max-width:1200px){
+    .formulario{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
