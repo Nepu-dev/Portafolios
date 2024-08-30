@@ -47,3 +47,8 @@ a{
         padding-bottom: 10%;
     }
 }
+
+.discord{
+    height: 150px;
+    object-fit: cover;
+}
